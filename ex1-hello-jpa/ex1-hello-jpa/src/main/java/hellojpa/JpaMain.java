@@ -20,10 +20,10 @@ public class JpaMain {
 
     tx.begin();
     try {
-      Member member = new Member();
-      member.setId(2L);
-      member.setName("helloB");
-      entityManager.persist(member);
+//      Member member = new Member();
+//      member.setId(2L);
+//      member.setName("helloB");
+//      entityManager.persist(member);
       tx.commit();
     } catch (Exception e) {
       tx.rollback();
