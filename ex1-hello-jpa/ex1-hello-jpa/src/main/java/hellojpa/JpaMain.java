@@ -18,7 +18,7 @@ public class JpaMain {
     // 영속 컨텍스트에 대해 컨트롤이 가능하다.
     tx.begin();
     try {
-      Member member = new Member();
+      Member_Back member = new Member_Back();
       member.setId("ID_A");
       member.setName("C");
       entityManager.persist(member);

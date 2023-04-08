@@ -3,7 +3,6 @@ package hellojpa;
 import javax.persistence.*;
 import java.util.Date;
 
-@Entity
 public class Member_Entity_Explain {
 
   @Id
